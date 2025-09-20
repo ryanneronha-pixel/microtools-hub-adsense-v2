@@ -7,9 +7,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  experimental: {
-    appDir: true,
-  },
   // Configure for Replit environment
   async headers() {
     return [
